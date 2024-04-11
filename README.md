@@ -17,7 +17,7 @@ A simple calculator web application built using HTML, CSS, and JavaScript.
 
 ## Demo
 
-You can try out the live demo of the calculator https://your-demo-url.com](https://jiwansoza.github.io/Coding-Samurai-Internship-Task1/
+You can try out the live demo of the calculator https://jiwansoza.github.io/Coding-Samurai-Internship-Task1/
 
 ## Getting Started
 
