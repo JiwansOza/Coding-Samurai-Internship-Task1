@@ -1,34 +1,43 @@
+/* Reset CSS */
 * {
     margin: 0;
     padding: 0;
     font-family: "Helvetica Neue", sans-serif;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+/* Body Styles */
+body {
     background-color: #f0f0f0;
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .container {
+}
+
+/* Calculator Container */
+.container {
     background: #000000;
     padding: 25px;
-    width: 350px;
+    width: 350px; /* Fixed width for the calculator */
     border-radius: 10px;
     text-align: center;
-  }
-  .calc-text {
+}
+
+/* Calculator Text Display */
+.calc-text {
     margin-bottom: 20px;
     padding-left: 5px;
-  }
-  h1 {
-    font-size: 24px; /* Adjust the font size as needed */
-    margin-bottom: 10px; /* Add some space below the heading */
 }
-  .calc-text p {
+
+/* Heading Styles */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Calculator Display Text Styles */
+.calc-text p {
     width: 100%;
     font-size: 3.5rem;
     text-align: end;
@@ -38,8 +47,10 @@
     outline: none;
     word-wrap: break-word;
     word-break: break-all;
-  }
-  button {
+}
+
+/* Calculator Button Styles */
+button {
     background: #333333;
     color: #fff;
     font-size: 1.5rem;
@@ -48,31 +59,35 @@
     cursor: pointer;
     height: 65px;
     width: 65px;
-  }
-  
-  button:active,
-  button:focus {
+}
+
+button:active,
+button:focus {
     filter: brightness(120%);
-  }
-  
-  .calc-keys {
+}
+
+/* Calculator Keys Grid Layout */
+.calc-keys {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-row-gap: 15px;
     grid-column-gap: 10px;
-  }
-  
-  .key-zero {
+}
+
+/* Zero Key Styles */
+.key-zero {
     grid-column: span 2;
     width: 100%;
     border-radius: 30px;
-  }
-  
-  .key-operate {
+}
+
+/* Operator Key Styles */
+.key-operate {
     background: #ff9501;
-  }
-  
-  .key-others {
+}
+
+/* Other Key Styles */
+.key-others {
     background: #a6a6a6;
     color: #000000;
-  }  
+}
